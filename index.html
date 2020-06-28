@@ -1,36 +1,82 @@
 <!DOCTYPE html>
+<html lang="en-us">
 
-<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Stylesheets with Relative Paths</title>
+    <style>
+        main {
+            background-color: pink
+        }
 
-<head>My Bio</head>
+        header {
+            text-align: center;
+            background: darkslategray;
+            color: whitesmoke;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 15px;
+            font-family: fantasy;
+            text-decoration: underline;
 
-<body>
-    <h1>Student Bio</h1>
+        }
 
-    <h2>Casey Natale Maltese</h2>
-    <img src="Casey.jpg" width="200" height="200">
+        img {
+            float: left;
+            margin-right: 20px;
+            border: 3px solid whitesmoke;
+        }
 
-    <p> I am a musician and educator and am exploring the world of web development. I am currently enrolled in the
-        University of Miami Coding Boot Camp.</p>
+        .about {
+            float: left;
+            width: 70%;
+            font-family: fantasy;
+        }
 
-    <h3>Contact Info</h3>
-    <ol>
-        <li>
-            <b>Email:</b> <a href="mailto:caseymaltese@gmail.com">caseymaltese@gmail.com</a>
-        </li>
-        <li>
-            <b>Github:</b><a href="https://github.com/caseofbase18?tab=projects">@caseofbase18</a>
-        </li>
-        <li>
-            <b>Portfolio:</b><a href="#">Coming Soon</a>
-        </li>
+        .contact {
+            float: right;
+            width: 25%;
+            font-family: fantasy;
+        }
+    </style>
 
-    </ol>
+</head>
 
+<body style=background:pink;>
+    <header>
+        <h1>Student Bio</h1>
+    </header>
 
+    <main>
+
+        <section class="about">
+
+            <h2>Casey Natale Maltese</h2>
+
+            <img src="./assets/Casey1.jpg" width="200" height="200">
+
+            <p> I am a musician and educator who is exploring the world of web development. I am currently enrolled in
+                the
+                University of Miami Coding Boot Camp.</p>
+        </section>
+
+        <section class="contact">
+            <h3>Contact Info</h3>
+            <ul>
+                <li>
+                    <b>Email:</b> <a href="mailto:caseymaltese@gmail.com">caseymaltese@gmail.com</a>
+                </li>
+                <li>
+                    <b>Github:</b><a href="https://github.com/caseofbase18?tab=projects">@caseofbase18</a>
+                </li>
+                <li>
+                    <b>Portfolio:</b><a href="#">Coming Soon</a>
+                </li>
+            </ul>
+        </section>
+
+    </main>
 
 </body>
-
-
 
 </html>

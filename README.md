@@ -1,3 +1,3 @@
 # My bio
 
-This is a repository with my bio. And I have updated it.
+This is a repository with my bio. I updated it.
