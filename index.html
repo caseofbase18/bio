@@ -4,43 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS Stylesheets with Relative Paths</title>
-    <style>
-        main {
-            background-color: pink
-        }
-
-        header {
-            text-align: center;
-            background: darkslategray;
-            color: whitesmoke;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-size: 15px;
-            font-family: fantasy;
-            text-decoration: underline;
-
-        }
-
-        img {
-            float: left;
-            margin-right: 20px;
-            border: 3px solid whitesmoke;
-        }
-
-        .about {
-            float: left;
-            width: 70%;
-            font-family: fantasy;
-        }
-
-        .contact {
-            float: right;
-            width: 25%;
-            font-family: fantasy;
-        }
-    </style>
-
 </head>
+
+<style>
+    main {
+        background-color: pink
+    }
+
+    header {
+        text-align: center;
+        background: darkslategray;
+        color: whitesmoke;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-family: fantasy;
+        text-decoration: underline;
+    }
+
+    img {
+        float: left;
+        margin-right: 20px;
+        border: 3px solid whitesmoke;
+    }
+
+    .about {
+        float: left;
+        width: 70%;
+        font-family: fantasy;
+    }
+
+    .contact {
+        float: right;
+        width: 25%;
+        font-family: fantasy;
+    }
+
+    .chat {
+        padding: 20px;
+        border-radius: 100%;
+        background: plum;
+        color: whitesmoke;
+        display:inline-block;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        box-shadow: 2px 2px 2px whitesmoke;
+        position: fixed;
+        right: 50px;
+        bottom: 50px;
+    }
+</style>
 
 <body style=background:pink;>
     <header>
@@ -50,14 +64,15 @@
     <main>
 
         <section class="about">
+            
+            <div class="chat">Talk to me</div>
 
             <h2>Casey Natale Maltese</h2>
 
             <img src="./assets/Casey1.jpg" width="200" height="200">
 
             <p> I am a musician and educator who is exploring the world of web development. I am currently enrolled in
-                the
-                University of Miami Coding Boot Camp.</p>
+                the University of Miami Coding Boot Camp.</p>
         </section>
 
         <section class="contact">
@@ -67,10 +82,10 @@
                     <b>Email:</b> <a href="mailto:caseymaltese@gmail.com">caseymaltese@gmail.com</a>
                 </li>
                 <li>
-                    <b>Github:</b><a href="https://github.com/caseofbase18?tab=projects">@caseofbase18</a>
+                    <b>Github:</b> <a href="https://github.com/caseofbase18?tab=projects">@caseofbase18</a>
                 </li>
                 <li>
-                    <b>Portfolio:</b><a href="#">Coming Soon</a>
+                    <b>Portfolio:</b> <a href="#">Coming Soon</a>
                 </li>
             </ul>
         </section>
