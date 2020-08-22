@@ -1,0 +1,49 @@
+body {
+    background-color: pink;
+    font-family: 'Sahitya', serif;
+}
+
+header {
+    text-align: center;
+    background: teal;
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    border: 3px solid whitesmoke;
+    width: 200px;
+    height: 200px;
+}
+
+.about {
+    float: left;
+    width: 70%;
+}
+
+.contact {
+    float: right;
+    width: 25%;
+}
+
+.chat {
+    padding: 20px;
+    border-radius: 100%;
+    background: plum;
+    color: whitesmoke;
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 2px whitesmoke;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+    
+
