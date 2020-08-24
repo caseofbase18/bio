@@ -3,6 +3,24 @@ body {
     font-family: 'Sahitya', serif;
 }
 
+h2 {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: grey;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 10px;
+} 
+
+a:hover {
+    color: purple;
+}
+
 header {
     text-align: center;
     background: teal;
