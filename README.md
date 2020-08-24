@@ -5,4 +5,4 @@ This page features my bio and current portfolio. It has my name, a photo, a brie
 Deployed: https://caseofbase18.github.io/bio/
 
 Bio page: <img src="./assets/aboutme.png">
-Portfolio: <img src="./assets/portfolio.png>
+Portfolio: <img src="./assets/portfolio.png">
