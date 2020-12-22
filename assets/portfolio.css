@@ -64,6 +64,15 @@ iframe {
     overflow: hidden;
 }
 
+video {
+    width: 350px;
+    /* You can set the dimensions to whatever you want */
+    object-fit: cover;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    overflow: hidden;
+}
+
 
 .centered {
     position: absolute;
