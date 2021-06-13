@@ -1,11 +1,30 @@
 body {
-    background-color: pink;
     font-family: 'Sahitya', serif;
+         /* Location of the image */
+    background-image: url(./images/maxresdefault.jpg);
+  
+  /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+    
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+    background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+    background-color: #464646;
 }
 
 h2 {
-    background-color: teal;
-    color: white;
+    /* background-color: #0abaee; */
+    color: honeydew;
     padding: 10px;
     text-align: center;
     border-radius: 5px;
@@ -13,6 +32,8 @@ h2 {
 
 .nav-item {
     font-size: large;
+    font-weight: bolder;
+
 }
 
 h3 {
@@ -20,20 +41,24 @@ h3 {
 }
 
 a {
-    color: grey;
+    color: honeydew;
     font-weight: bolder;
     font-size: larger;
     margin-top: 10px;
 } 
 
 a:hover {
-    color: purple;
+    color: #9bfffd;
+}
+
+b {
+    color: #9bfffd;
+    font-size: 125%;
 }
 
 header {
     text-align: center;
-    background: teal;
-    color: whitesmoke;
+    color: honeydew;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 15px;
@@ -43,7 +68,7 @@ header {
 img {
     float: left;
     margin-right: 20px;
-    border: 3px solid whitesmoke;
+    border: 3px solid honeydew;
     border-radius: 5px;
     width: 200px;
     height: 200px;
@@ -51,23 +76,21 @@ img {
 
 #contact {
     float: right;
+    color:honeydew;
+    font-weight: bolder;
+    text-align: center;
 } 
 
 #about {
-    border: 1px solid grey;
-    box-shadow: 0px 8px 8px grey;
+    border: 1px solid honeydew;
+    box-shadow: 0px 0px 8px 8px honeydew;
     border-radius: 5px;
-    background-color: papayawhip;
+    color:honeydew;
+    background-color: #6c06a8;
 }
 
-
-
-/* #contact {
-    /* border: 1px solid grey;
-    box-shadow: 0px 10px 8px grey;
-    border-radius: 5px;
-    background-color: peachpuff;
-    float: right;
-} */
+.ul {
+    font-size: larger;
+}
 
 
